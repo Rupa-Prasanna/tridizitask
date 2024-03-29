@@ -1,0 +1,257 @@
+.navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+}
+body{
+    margin:10px;
+    color:rgb(14, 45, 128);
+}
+.navbar-prop{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+}
+h5{
+    margin:5px;
+}
+.login-icon{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    background-image:url("https://i.imgur.com/bPBtR5M.png");
+    background-size:cover;
+    margin:5px;
+    
+
+}
+img{
+    background-size:cover;
+    
+    width:100%;
+    padding:20px;
+}
+.container2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    
+
+}
+p{
+    font-weight:bold;
+}
+.box1{
+    border-color:black;
+    border-style:solid;
+    margin:10px;
+    padding:10px;
+    border-radius:15px;
+   
+    
+    color:rgb(16, 131, 125);
+
+}
+.box2{
+    background-color:rgb(160, 204, 197);
+    border:none;
+    margin:10px;
+    padding:10px;
+    border-radius:15px;
+    
+    color:black;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+button{
+    border-radius:15px;
+    background-color:rgb(36, 99, 180); margin:10px;
+    color:white;
+    border:none;
+    padding:10px;
+   
+
+}
+.sofa-image{
+    background-image:url("https://i.ibb.co/c8CKbJm/rental-image-1170x720-1-2.png");
+    background-size:cover;
+    height:500px;
+    
+    
+    
+
+}
+.keyword-box{
+    padding:15px;
+    border-radius:20px;
+    background-color:white;
+    border:none;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:90%;
+    height:100px;
+
+}
+.keyword-row{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.search-icon{
+    height:30px;
+    width:30px;
+}
+.search-box{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.rent-button{
+    background-color:grey;
+    color:black;
+    border:none;
+    border-radius:15px;
+}
+.sale-button{
+    background-color:grey;
+    color:black;
+    border:none;
+    border-radius:15px;
+}
+.hr{
+    
+    border-style:solid;
+    color:blue;
+    background-color: red;  
+}
+.advance-search-button{
+    background-color:rgb(11, 118, 133);
+    border:none;
+    border-radius:15px;
+}
+.search-button{
+    background-color:rgb(4, 48, 54);
+    border:none;
+    border-radius:15px;
+}.features-row{
+    background-color:rgb(31, 163, 157);
+    border-radius:10px;
+    margin-top:0px;
+    width:40%;
+    padding:10px;
+    color:white;
+}
+.ellipse-shape{
+    background-image:url("https://i.imgur.com/afhSo2U.png");
+}
+h2{
+    font-size:30px;
+    color:rgb(16, 19, 201);
+}
+@media (max-width:1024px){
+.rental-card-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+
+}
+}
+@media (min-width:1025px) {
+
+    .rental-card-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+}
+.card-image{
+    height:400px;
+    width:400px;
+}
+h4{
+    margin-top:0px;
+    margin-left:10px;
+}
+.location-icon{
+    height:20px;
+    width:20px;
+}
+.location-details-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    color:rgb(180, 142, 17);
+}
+h3{
+    margin-right:15px;
+    color:rgb(155, 27, 187);
+}
+.rental-card{
+    background-color:rgb(241, 229, 229);
+    border-radius:10px;
+}
+.capture-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(159, 230, 235);
+    border-radius:10px;
+}
+.capture-card{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    padding:30px;
+    margin-left:40px;
+}
+.capture-image{
+    
+}
+.marketing-icon-container{
+    
+}
+
+span{
+    font-size:24px;
+    
+}
+.real-estate-image{
+    height:200px;
+    width:200px;
+}
+.why-question{
+    text-align:left;
+    padding:10px;
+    color:rgb(148, 13, 114);
+}
+.link-heading{
+    text-align:center;
+}
+.for-sale-row{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+}
