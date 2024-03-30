@@ -8,45 +8,68 @@ class Home extends Component{
             <div>
                 <center> 
                     
-                    <img src="https://i.imgur.com/FJPLO8D.png" alt=""/>
-                    <div className="container2">
-                        <div className="box1">
+                    <img className="nav-bar" src="https://i.imgur.com/FJPLO8D.png" alt=""/>
+                    <div className="container-wrapper">
+                    
+                        <div className="container1">
+                            <div className="content1">
                             <p> Find Your Sweet Home </p>
+                            </div>
 
                         </div>
-                        <div className="box2">
+                        <div className="container2">
+                            <div className="content2">
                             <p>Need Help to Choose Your Property</p>
-                            <button>Let Us Call You!</button>
+                            <button className="call-button"> Let Us Call You!</button>
+                            </div>
 
                         </div>
-                    </div>
-                    <div className="sofa-image"> 
-                       <div className="keyword-box"> 
-                       <div className="keyword-row">
+                        <div className="keyword-wrapper">
+                            <div className="keyword-box"> 
+                       <div className="keyword-row1">
                           <div className="search-box">
                             <img alt="" className="search-icon" src="https://i.imgur.com/4uRf1J3.png"/>
+                            <div className="keyword">
                             <h5> Keyword </h5>
-                          </div>
-                          <button>All</button>
+                            </div>
+                           </div>
+                          <div className="button-con">
+                          <button className="all-button">All</button>
                           <button className="rent-button">For Rent</button>
                           <button className="sale-button">For Sale</button>
+                          </div>
                         </div>
-                        <hr className="hr"/>
-                        <div className="keyword-row">
-                            <h5> All Main Locations</h5>
-                            <h5> All Types </h5>
-                            <button className="advance-search-button"> Advance Search </button>
-                            <button className="search-button"> Search </button>
+                        
+                        <div className="keyword-row2">
+                            <h5 className="name1"> All Main Locations</h5>
+                            <h5 className="name2"> All Types </h5>
+                            
 
                         </div>
-                       </div>
-                       <div>
-                        <div className="ellipse-shape">
+                        <div className="keyword-row3">
+                            <div className="advance-search">
+                                <div>
+                                <img alt="" className="search-icon2" src="https://i.imgur.com/4uRf1J3.png"/>
+                                </div>
+                                <div>
+                                <p> Advance search</p>
+                                </div>
+                            </div> 
+                            <button className="search-button"> Search </button>
                         </div>
-                        <p className="features-row">+   Looking for certain features </p>
-                       </div>
+                            </div>
+                    
+                            <p className="features-row">+   Looking for certain features </p>
+                    
                        
                     </div>
+                        
+                    </div>
+                    
+                    <div className="sofa-image"> 
+                       
+                    <img className="img1" src="https://i.ibb.co/c8CKbJm/rental-image-1170x720-1-2.png" alt=""/>                       
+                    </div>  
                     <h2> Featured Property</h2>
                     <div className="rental-card-container">
                         <img src="https://i.ibb.co/XLVDZQK/Group-1000005449.png" alt=""/>
